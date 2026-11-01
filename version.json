@@ -1,14 +1,13 @@
 {
-  "version": "1.0.9",
-  "tag": "v1.0.9",
+  "version": "1.1.0",
+  "tag": "v1.1.0",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Estação Dedicada de Sensores Ampliada: tela quase cheia (1600px / 92vh) com cabeçalhos fixos e rolagem fluida, mantendo as bordas externas para preservar a percepção de modal flutuante.",
-    "Central Exclusiva de Sensores Ping (RO-*): menu dedicado com filtro rápido por dispositivos RO-*, visualização e alteração direta de Canal Primário (Display), Ping Delay/Timeout e Ping Count na própria tabela.",
-    "Padronização e Gravação em Massa de Sensores Ping: altere Canal Primário, Delay e Contagem para todos os sensores RO selecionados com execução sequencial segura e auditoria unificada.",
-    "Desbloqueio do Modo Seguro dentro de Modais: botão e banner de alternância de Modo Seguro acessíveis diretamente de dentro de qualquer modal sem precisar fechar a tela.",
-    "Ajuste visual na barra lateral: layout limpo e espaçoso para os chips de filtro da árvore de grupos."
+    "Detecção Real e Sincronização Precisa de Canal Primário: leitura direta de `primarychannel` das configurações internas do PRTG (com suporte a XML/texto do `getobjectproperty.htm`) e identificação automática de sensores configurados com Packet Loss (%) e Ping Time (ms).",
+    "Sincronização Dinâmica em Tempo Real: atualização visual imediata de Canal Primário, Delay/Timeout e Contagem conforme cada lote é consultado no PRTG, eliminando valores padrão fictícios.",
+    "Gravação de Parâmetros com Compatibilidade Total: mutações de canal primário e propriedades de ping enviadas nos formatos suportados por todas as versões da API do PRTG.",
+    "Estação Dedicada de Sensores Ampliada: layout quase tela cheia (1600px / 92vh) com rolagem fluida e cabeçalhos fixos."
   ]
 }
