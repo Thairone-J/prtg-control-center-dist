@@ -1,13 +1,14 @@
 {
-  "version": "1.0.8",
-  "tag": "v1.0.8",
+  "version": "1.0.9",
+  "tag": "v1.0.9",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Central Exclusiva de Sensores Ping: menu dedicado com filtro rápido por dispositivos RO-*, visualização e alteração direta de Canal Primário (Display), Ping Delay/Timeout e Ping Count na própria tabela.",
+    "Estação Dedicada de Sensores Ampliada: tela quase cheia (1600px / 92vh) com cabeçalhos fixos e rolagem fluida, mantendo as bordas externas para preservar a percepção de modal flutuante.",
+    "Central Exclusiva de Sensores Ping (RO-*): menu dedicado com filtro rápido por dispositivos RO-*, visualização e alteração direta de Canal Primário (Display), Ping Delay/Timeout e Ping Count na própria tabela.",
     "Padronização e Gravação em Massa de Sensores Ping: altere Canal Primário, Delay e Contagem para todos os sensores RO selecionados com execução sequencial segura e auditoria unificada.",
     "Desbloqueio do Modo Seguro dentro de Modais: botão e banner de alternância de Modo Seguro acessíveis diretamente de dentro de qualquer modal sem precisar fechar a tela.",
-    "Ajuste visual na barra lateral: remoção dos botões que comprimiam os chips de filtro, restaurando o layout limpo e espaçoso da árvore de grupos."
+    "Ajuste visual na barra lateral: layout limpo e espaçoso para os chips de filtro da árvore de grupos."
   ]
 }
