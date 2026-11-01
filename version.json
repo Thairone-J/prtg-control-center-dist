@@ -1,14 +1,13 @@
 {
-  "version": "1.0.0",
-  "tag": "v1.0.0",
+  "version": "1.0.5",
+  "tag": "v1.0.5",
   "name": "PRTG Control Center",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Lançamento inicial do PRTG Control Center Fast Commander.",
-    "Mapeamento inteligente de topologia (Grupos, Dispositivos e Sensores).",
-    "Tratamento resiliente de respostas HTML e erros da API PRTG.",
-    "Modo Seguro (Leitura) e confirmação em 2 etapas com Análise de Impacto (Diff Card).",
-    "Canal de atualizações OTA integrado com checagem com 1 clique."
+    "Fix crítico na montagem da árvore hierárquica: resolução completa de nós raiz (objid 0), probes e grupos filhos.",
+    "Suporte universal a relações parentid em /api/table.json e /api/sensortree.json com limpeza estrita de HTML.",
+    "Exibição correta de itens vinculados no nó raiz e em todos os níveis da infraestrutura.",
+    "Tag de versão v1.0.5 no cabeçalho com conferência de atualizações OTA em 1 clique."
   ]
 }
