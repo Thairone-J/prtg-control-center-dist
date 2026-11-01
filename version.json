@@ -1,15 +1,13 @@
 {
-  "version": "1.0.7",
-  "tag": "v1.0.7",
+  "version": "1.0.8",
+  "tag": "v1.0.8",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Nova identidade: PRTG Rabbit — Fast Infrastructure Commander & Bulk Management.",
-    "Botões diretos de Recolher Tudo e Expandir Tudo no topo da barra lateral para colapso/expansão rápida de toda a infraestrutura.",
-    "Fix no filtro de busca: ao pesquisar por uma filial ou grupo (ex: 'Amazon'), todos os dispositivos e sensores filhos agora permanecem visíveis e navegáveis.",
-    "Navegação limpa: simplificação da barra do inspetor focando em Voltar, Avançar e Breadcrumbs interativos.",
-    "Gestão Completa de Canais (Channels) & Sensor Settings: visualização detalhada de canais, alteração de Canal Primário (Primary Channel) e configurações específicas de Ping (Timeout, Tamanho de Pacote, Ping Count).",
-    "Edição em Massa de Canais Primários: seleção de múltiplos sensores com ferramenta para padronizar canais principais em lote com gravação sequencial e auditoria unificada."
+    "Central Exclusiva de Sensores Ping: menu dedicado com filtro rápido por dispositivos RO-*, visualização e alteração direta de Canal Primário (Display), Ping Delay/Timeout e Ping Count na própria tabela.",
+    "Padronização e Gravação em Massa de Sensores Ping: altere Canal Primário, Delay e Contagem para todos os sensores RO selecionados com execução sequencial segura e auditoria unificada.",
+    "Desbloqueio do Modo Seguro dentro de Modais: botão e banner de alternância de Modo Seguro acessíveis diretamente de dentro de qualquer modal sem precisar fechar a tela.",
+    "Ajuste visual na barra lateral: remoção dos botões que comprimiam os chips de filtro, restaurando o layout limpo e espaçoso da árvore de grupos."
   ]
 }
