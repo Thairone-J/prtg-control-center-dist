@@ -1,13 +1,13 @@
 {
-  "version": "1.1.2",
-  "tag": "v1.1.2",
+  "version": "1.1.3",
+  "tag": "v1.1.3",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Filtro Avançado de Sensores Ping: novos seletores de critério (Contém, Não Contém, Começa com, Termina com) e campo dedicado para exclusão de termos (ex: TEST, BKP, 4G) com filtragem instantânea.",
-    "Abertura Instantânea: remoção do escaneamento de background individual, eliminando qualquer atraso de rede e permitindo padronização em massa imediata.",
-    "Padronização e Gravação em Massa Preservadas: edição em linha, aplicação unificada de Canal Primário, Ping Delay e Contagem com trilha de auditoria completa.",
-    "Seleção Inteligente: contagem em tempo real de sensores filtrados e selecionados para operações em lote com total segurança."
+    "Separação Estrita de Ping Delay e Timeout: correção do isolamento entre Ping Delay (em milissegundos) e Timeout (em segundos), impedindo que alterar o delay modifique indevidamente o campo de timeout do sensor.",
+    "Controle Individual de Parâmetros Ping: campos independentes para Canal Primário, Ping Delay (ms), Timeout (s) e Contagem na barra de padronização em massa e nas linhas da tabela.",
+    "Proteção contra Sobrecarga de Timeout: prevenção de congelamento de sondas do PRTG por timeouts excessivos.",
+    "Filtros Rápidos com Contém / Não Contém Mantidos: busca instantânea com operador e campo de exclusão de termos."
   ]
 }
