@@ -1,13 +1,13 @@
 {
-  "version": "1.0.5",
-  "tag": "v1.0.5",
+  "version": "1.0.6",
+  "tag": "v1.0.6",
   "name": "PRTG Control Center",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Fix crítico na montagem da árvore hierárquica: resolução completa de nós raiz (objid 0), probes e grupos filhos.",
-    "Suporte universal a relações parentid em /api/table.json e /api/sensortree.json com limpeza estrita de HTML.",
-    "Exibição correta de itens vinculados no nó raiz e em todos os níveis da infraestrutura.",
-    "Tag de versão v1.0.5 no cabeçalho com conferência de atualizações OTA em 1 clique."
+    "Navegação intuitiva: botões Voltar (Back), Avançar (Forward), Subir Nível e Breadcrumbs interativos com clique direto.",
+    "Edição em Massa (Bulk Edit): seleção múltipla com ferramenta de substituição rápida de texto (ex: correção de espaços em nomes de APs) e execução sequencial com loading e check individual.",
+    "Expansão e colapso ágil de pastas na barra lateral via clique direto no expander, ícone da pasta ou duplo-clique.",
+    "Trilha de auditoria aprimorada com justificativa obrigatória registrada no localStorage, filtros, exportação em JSON e CSV, e aviso de segurança ao fechar com alterações não exportadas."
   ]
 }
