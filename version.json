@@ -1,13 +1,15 @@
 {
-  "version": "1.0.6",
-  "tag": "v1.0.6",
-  "name": "PRTG Control Center",
+  "version": "1.0.7",
+  "tag": "v1.0.7",
+  "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Navegação intuitiva: botões Voltar (Back), Avançar (Forward), Subir Nível e Breadcrumbs interativos com clique direto.",
-    "Edição em Massa (Bulk Edit): seleção múltipla com ferramenta de substituição rápida de texto (ex: correção de espaços em nomes de APs) e execução sequencial com loading e check individual.",
-    "Expansão e colapso ágil de pastas na barra lateral via clique direto no expander, ícone da pasta ou duplo-clique.",
-    "Trilha de auditoria aprimorada com justificativa obrigatória registrada no localStorage, filtros, exportação em JSON e CSV, e aviso de segurança ao fechar com alterações não exportadas."
+    "Nova identidade: PRTG Rabbit — Fast Infrastructure Commander & Bulk Management.",
+    "Botões diretos de Recolher Tudo e Expandir Tudo no topo da barra lateral para colapso/expansão rápida de toda a infraestrutura.",
+    "Fix no filtro de busca: ao pesquisar por uma filial ou grupo (ex: 'Amazon'), todos os dispositivos e sensores filhos agora permanecem visíveis e navegáveis.",
+    "Navegação limpa: simplificação da barra do inspetor focando em Voltar, Avançar e Breadcrumbs interativos.",
+    "Gestão Completa de Canais (Channels) & Sensor Settings: visualização detalhada de canais, alteração de Canal Primário (Primary Channel) e configurações específicas de Ping (Timeout, Tamanho de Pacote, Ping Count).",
+    "Edição em Massa de Canais Primários: seleção de múltiplos sensores com ferramenta para padronizar canais principais em lote com gravação sequencial e auditoria unificada."
   ]
 }
