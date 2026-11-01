@@ -1,13 +1,13 @@
 {
-  "version": "1.1.0",
-  "tag": "v1.1.0",
+  "version": "1.1.1",
+  "tag": "v1.1.1",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Detecção Real e Sincronização Precisa de Canal Primário: leitura direta de `primarychannel` das configurações internas do PRTG (com suporte a XML/texto do `getobjectproperty.htm`) e identificação automática de sensores configurados com Packet Loss (%) e Ping Time (ms).",
-    "Sincronização Dinâmica em Tempo Real: atualização visual imediata de Canal Primário, Delay/Timeout e Contagem conforme cada lote é consultado no PRTG, eliminando valores padrão fictícios.",
-    "Gravação de Parâmetros com Compatibilidade Total: mutações de canal primário e propriedades de ping enviadas nos formatos suportados por todas as versões da API do PRTG.",
-    "Estação Dedicada de Sensores Ampliada: layout quase tela cheia (1600px / 92vh) com rolagem fluida e cabeçalhos fixos."
+    "Fidelidade de Leitura para Ping Delay e Ping Count: rotina multi-candidato via API (`pingdelay`, `delay`, `timeout`, `pingcount`, `count`) com tratamento de XML para exibir com precisão os valores reais gravados no PRTG sem defaults fictícios.",
+    "Sincronização Visual em Tempo Real: indicador dinâmico de progresso da sincronização com PRTG na tabela de sensores e atualização ao vivo dos campos de cada dispositivo.",
+    "Consistência de Versão no Cabeçalho: correção definitiva da tag de versão na barra superior e título das janelas, garantindo que o cabeçalho e as notas reflitam exatamente a versão em execução.",
+    "Gravação Segura Expandida: gravação simultânea de Ping Delay, Timeout e Count com máxima compatibilidade entre todas as versões do PRTG."
   ]
 }
