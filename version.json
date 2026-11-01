@@ -1,13 +1,13 @@
 {
-  "version": "1.1.1",
-  "tag": "v1.1.1",
+  "version": "1.1.2",
+  "tag": "v1.1.2",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-01",
   "notes": [
-    "Fidelidade de Leitura para Ping Delay e Ping Count: rotina multi-candidato via API (`pingdelay`, `delay`, `timeout`, `pingcount`, `count`) com tratamento de XML para exibir com precisão os valores reais gravados no PRTG sem defaults fictícios.",
-    "Sincronização Visual em Tempo Real: indicador dinâmico de progresso da sincronização com PRTG na tabela de sensores e atualização ao vivo dos campos de cada dispositivo.",
-    "Consistência de Versão no Cabeçalho: correção definitiva da tag de versão na barra superior e título das janelas, garantindo que o cabeçalho e as notas reflitam exatamente a versão em execução.",
-    "Gravação Segura Expandida: gravação simultânea de Ping Delay, Timeout e Count com máxima compatibilidade entre todas as versões do PRTG."
+    "Filtro Avançado de Sensores Ping: novos seletores de critério (Contém, Não Contém, Começa com, Termina com) e campo dedicado para exclusão de termos (ex: TEST, BKP, 4G) com filtragem instantânea.",
+    "Abertura Instantânea: remoção do escaneamento de background individual, eliminando qualquer atraso de rede e permitindo padronização em massa imediata.",
+    "Padronização e Gravação em Massa Preservadas: edição em linha, aplicação unificada de Canal Primário, Ping Delay e Contagem com trilha de auditoria completa.",
+    "Seleção Inteligente: contagem em tempo real de sensores filtrados e selecionados para operações em lote com total segurança."
   ]
 }
