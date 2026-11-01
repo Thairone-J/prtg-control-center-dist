@@ -1,0 +1,14 @@
+{
+  "version": "1.0.1",
+  "tag": "v1.0.1",
+  "name": "PRTG Control Center",
+  "channel": "stable",
+  "buildDate": "2026-11-01",
+  "notes": [
+    "Tratamento resiliente de respostas HTML do PRTG (captura de mensagens da tag errormsg e páginas de login sem quebra de sintaxe JSON).",
+    "Fallback inteligente para /api/table.json (content=groups, devices, sensors) caso sensortree.json não esteja disponível.",
+    "Canal de atualizações OTA 1-Clique integrado com persistência local e empacotamento discreto.",
+    "Modal de novidades pós-atualização com confirmação rápida 'Entendi'.",
+    "Ajuste visual no cabeçalho com botão Scan API sóbrio e fechamento instantâneo do console de auditoria."
+  ]
+}
