@@ -1,13 +1,12 @@
 {
-  "version": "2.3.0",
-  "tag": "v2.3.0",
+  "version": "2.4.0",
+  "tag": "v2.4.0",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-22",
   "notes": [
-    "Diagnóstico e Resolução Unificada de SNMP (#snmpResolveModal): clique em 'Resolver SNMP' em qualquer dispositivo da Central SNMP ou filial da Auditoria para ver o erro traduzido (-2003, -2007, -2002, limite de banda, sem sensor), a cadeia completa de herança (Root/Probe -> Grupo -> Filial -> WAN -> Dispositivo) e a credencial efetiva em uso.",
-    "Alteração Segura de Herança vs Override com Teste Ao Vivo: alterne entre herdar ou definir SNMP v1/v2c/v3 em Override (preenchendo de um Perfil em 1 clique), salve via /editsettings com fallback automático e dispare Scan Now com releitura após 4s.",
-    "Atalhos Diretos para o PRTG: botões integrados no diagnóstico para Descobrir Interfaces SNMP no PRTG (/addsensor.htm) e abrir Settings SNMP (/object.htm?tabid=8), além de exclusão rápida de sensor SNMP quebrado.",
-    "Proteção contra SNMP Traffic com ifIndex Errado: ao criar um novo SD-WAN, o PRTG Rabbit cria o Ping padrão automaticamente e mantém a clonagem de SNMP desmarcada por padrão, evitando sensores clonados apontando para porta errada de outro equipamento."
+    "Troca de Grupo Pai direto no Inspetor e no Modal Mover (#moveObjectModal): selecione qualquer dispositivo ou grupo (como uma ISP ou SD-WAN), filtre o grupo destino pelo nome, código LATO, WAN/LAN ou ID, use atalhos de 1 clique para WAN/LAN da mesma filial e mova na hora.",
+    "Detecção automática de dispositivos soltos fora de WAN/LAN: dispositivos RO/SW/AP soltos na filial ou alocados em subgrupo incorreto agora aparecem automaticamente em destaque na Auditoria de Filiais com botões 'Mover p/ WAN', 'Mover p/ LAN', 'Mudar Pai...' e 'Ver/Mover Soltos'.",
+    "Compatibilidade reforçada em moveObject: envia POST/GET para /moveobjectnow.htm (com fallback /api/moveobjectnow.htm e searchtext) e bloqueia movimentação para descendentes do próprio grupo."
   ]
 }
