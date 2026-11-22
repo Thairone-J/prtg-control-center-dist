@@ -1,13 +1,13 @@
 {
-  "version": "2.1.0",
-  "tag": "v2.1.0",
+  "version": "2.2.0",
+  "tag": "v2.2.0",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-22",
   "notes": [
-    "Assistente de Criação de Objetos (v2.1.0): crie subgrupos WAN/LAN ou grupos livres, adicione dispositivos (ISP, SD-WAN, Dedicado, Switch, AP) e clone sensores diretamente do PRTG Rabbit.",
-    "Construtor de Nomenclatura padrão Watcher: montagem guiada de nomes (RO | LATO | Papel WAN Operadora | IP) com preview instantâneo em tags coloridas e validação antes de gravar.",
-    "Auto-estrutura na Filial e Ping Automático: ao adicionar ISP ou SD-WAN em filial sem subgrupo WAN/LAN, cria o subgrupo automaticamente e opcionalmente clona sensor Ping/SNMP já ativado.",
-    "Ações Rápidas na Auditoria de Filiais e Organização: botões + Criar WAN, + Criar LAN, + SD-WAN, + ISP e botão Mover p/ WAN ou LAN para corrigir dispositivos soltos ou no subgrupo errado."
+    "Padronização SNMP via Planilha ou JSON (De -> Para): cole direto do Excel/Sheets ou em JSON com Site ID, Circuito, ISP, Designacao e Banda para casar automaticamente com os sensores SNMP Traffic no PRTG e gerar nomes padrão (ex: Secundario Algar - 400Mbps).",
+    "Preview Interativo De -> Para: revise a confiança do match por LATO/Designacao/Circuito/ISP, ajuste manualmente o nome proposto ou troque o circuito pareado antes de gravar em lote no PRTG.",
+    "Criação Zero-Fricção com Defaults Corporativos: dispositivos criados já recebem Ping padrão automático (Ping Count 20, Timeout 5s, Ping Delay 5ms, Canal Packet Loss) sem escolher unidade modelo manualmente.",
+    "Auto-provisionamento em SD-WAN: ao criar um SD-WAN, marca automaticamente Ping padrão + sensores SNMP Traffic (quantidade de links configurável) usando o melhor modelo saudável da árvore."
   ]
 }
