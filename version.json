@@ -1,13 +1,13 @@
 {
-  "version": "2.2.0",
-  "tag": "v2.2.0",
+  "version": "2.3.0",
+  "tag": "v2.3.0",
   "name": "PRTG Rabbit",
   "channel": "stable",
   "buildDate": "2026-11-22",
   "notes": [
-    "Padronização SNMP via Planilha ou JSON (De -> Para): cole direto do Excel/Sheets ou em JSON com Site ID, Circuito, ISP, Designacao e Banda para casar automaticamente com os sensores SNMP Traffic no PRTG e gerar nomes padrão (ex: Secundario Algar - 400Mbps).",
-    "Preview Interativo De -> Para: revise a confiança do match por LATO/Designacao/Circuito/ISP, ajuste manualmente o nome proposto ou troque o circuito pareado antes de gravar em lote no PRTG.",
-    "Criação Zero-Fricção com Defaults Corporativos: dispositivos criados já recebem Ping padrão automático (Ping Count 20, Timeout 5s, Ping Delay 5ms, Canal Packet Loss) sem escolher unidade modelo manualmente.",
-    "Auto-provisionamento em SD-WAN: ao criar um SD-WAN, marca automaticamente Ping padrão + sensores SNMP Traffic (quantidade de links configurável) usando o melhor modelo saudável da árvore."
+    "Diagnóstico e Resolução Unificada de SNMP (#snmpResolveModal): clique em 'Resolver SNMP' em qualquer dispositivo da Central SNMP ou filial da Auditoria para ver o erro traduzido (-2003, -2007, -2002, limite de banda, sem sensor), a cadeia completa de herança (Root/Probe -> Grupo -> Filial -> WAN -> Dispositivo) e a credencial efetiva em uso.",
+    "Alteração Segura de Herança vs Override com Teste Ao Vivo: alterne entre herdar ou definir SNMP v1/v2c/v3 em Override (preenchendo de um Perfil em 1 clique), salve via /editsettings com fallback automático e dispare Scan Now com releitura após 4s.",
+    "Atalhos Diretos para o PRTG: botões integrados no diagnóstico para Descobrir Interfaces SNMP no PRTG (/addsensor.htm) e abrir Settings SNMP (/object.htm?tabid=8), além de exclusão rápida de sensor SNMP quebrado.",
+    "Proteção contra SNMP Traffic com ifIndex Errado: ao criar um novo SD-WAN, o PRTG Rabbit cria o Ping padrão automaticamente e mantém a clonagem de SNMP desmarcada por padrão, evitando sensores clonados apontando para porta errada de outro equipamento."
   ]
 }
