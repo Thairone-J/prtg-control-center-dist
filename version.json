@@ -1,13 +1,13 @@
 {
-  "version": "1.1.3",
-  "tag": "v1.1.3",
+  "version": "2.0.0",
+  "tag": "v2.0.0",
   "name": "PRTG Rabbit",
   "channel": "stable",
-  "buildDate": "2026-11-01",
+  "buildDate": "2026-11-22",
   "notes": [
-    "Separação Estrita de Ping Delay e Timeout: correção do isolamento entre Ping Delay (em milissegundos) e Timeout (em segundos), impedindo que alterar o delay modifique indevidamente o campo de timeout do sensor.",
-    "Controle Individual de Parâmetros Ping: campos independentes para Canal Primário, Ping Delay (ms), Timeout (s) e Contagem na barra de padronização em massa e nas linhas da tabela.",
-    "Proteção contra Sobrecarga de Timeout: prevenção de congelamento de sondas do PRTG por timeouts excessivos.",
-    "Filtros Rápidos com Contém / Não Contém Mantidos: busca instantânea com operador e campo de exclusão de termos."
+    "Workspace em 5 Abas Fixas: Inspetor (com SNMP e Triggers), Central SNMP (SD-WANs), Triggers & E-mail, Auditoria de Filiais (LAN/WAN e Nomenclatura) e Central de Sensores (Ping RO + SNMP Traffic) sem modais soltos.",
+    "Central SNMP para SD-WANs: leitura em lote de versão (V2/V3), usuário v3, algoritmos auth/enc, porta, timeout e origem exata da herança (Probe/Grupo vs Override), com cadastro de perfis em sessão, aplicação em massa e teste via Probe PRTG.",
+    "Central de Triggers e E-mail: mapeamento completo de triggers locais e herdados + inherittriggers, com desativação ou limpeza em massa e confirmação via Diff Card.",
+    "Auditoria de Filiais LAN/WAN & Nomenclatura estilo Watcher: verificação automática de subgrupos LAN/WAN, presença de SDWAN + ISP, presença de SNMP Traffic e visualização em tags com detecção e correção guiada de espaços e pipes."
   ]
 }
