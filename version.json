@@ -1,12 +1,11 @@
 {
-  "version": "2.4.0",
-  "tag": "v2.4.0",
+  "version": "2.4.1",
+  "tag": "v2.4.1",
   "name": "PRTG Rabbit",
   "channel": "stable",
-  "buildDate": "2026-11-22",
+  "buildDate": "2026-11-28",
   "notes": [
-    "Troca de Grupo Pai direto no Inspetor e no Modal Mover (#moveObjectModal): selecione qualquer dispositivo ou grupo (como uma ISP ou SD-WAN), filtre o grupo destino pelo nome, código LATO, WAN/LAN ou ID, use atalhos de 1 clique para WAN/LAN da mesma filial e mova na hora.",
-    "Detecção automática de dispositivos soltos fora de WAN/LAN: dispositivos RO/SW/AP soltos na filial ou alocados em subgrupo incorreto agora aparecem automaticamente em destaque na Auditoria de Filiais com botões 'Mover p/ WAN', 'Mover p/ LAN', 'Mudar Pai...' e 'Ver/Mover Soltos'.",
-    "Compatibilidade reforçada em moveObject: envia POST/GET para /moveobjectnow.htm (com fallback /api/moveobjectnow.htm e searchtext) e bloqueia movimentação para descendentes do próprio grupo."
+    "Central SNMP — Modal de Tabela para Copiar / Exportar Selecionados: marque dispositivos com erro, sem sensor ou qualquer filtro e abra uma tabela limpa com Hostname (LATO-BR-DSC-XXX-XXX-00), IP, Credenciais SNMP (com leitura sob demanda dentro do modal) e Status.",
+    "Exportacao multi-formato instantanea: copie em TSV direto para Excel/Google Sheets, copie como tabela formatada HTML para Outlook/Teams ou baixe em CSV."
   ]
 }
